@@ -1,0 +1,176 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": "3.7.0",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic_plasmic_basic_components.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "D4RbnlpRXg3",
+          "name": "DataProvider",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "w64Lj4qzFKznSdSZRXYR8",
+      "projectApiToken": "3wIzPOhBm2LM6f1leeo0ht4sBtxQ21fEj9hmAlJLIPE5HD3Lo2SQU5m2iFieJxiDIHRUobW613G0JqA",
+      "projectName": "Razorpay Payment Gateway",
+      "version": "latest",
+      "cssFilePath": "plasmic/razorpay_payment_gateway/plasmic_razorpay_payment_gateway.module.css",
+      "components": [
+        {
+          "id": "PTHYoU41i1gM",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "w64Lj4qzFKznSdSZRXYR8",
+          "renderModuleFilePath": "plasmic/razorpay_payment_gateway/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/razorpay_payment_gateway/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "7DC_s_ptcnZ",
+          "name": "Button2",
+          "type": "managed",
+          "projectId": "w64Lj4qzFKznSdSZRXYR8",
+          "renderModuleFilePath": "plasmic/razorpay_payment_gateway/PlasmicButton2.jsx",
+          "importSpec": {
+            "modulePath": "Button2.jsx"
+          },
+          "cssFilePath": "plasmic/razorpay_payment_gateway/PlasmicButton2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "f7etD36KEfF",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/razorpay_payment_gateway/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "QUAkMH_X8-L",
+          "name": "Icon38Icon",
+          "moduleFilePath": "plasmic/razorpay_payment_gateway/icons/PlasmicIcon__Icon38.jsx"
+        },
+        {
+          "id": "rvv2ck7PTFu",
+          "name": "Icon14Icon",
+          "moduleFilePath": "plasmic/razorpay_payment_gateway/icons/PlasmicIcon__Icon14.jsx"
+        },
+        {
+          "id": "u5rY5asasG",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/razorpay_payment_gateway/icons/PlasmicIcon__Icon.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "Br23kcsoImAS",
+          "name": "image",
+          "filePath": "plasmic/razorpay_payment_gateway/images/image.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/razorpay_payment_gateway/PlasmicGlobalContextsProvider.jsx",
+      "codeComponents": [
+        {
+          "id": "4r5QdyDGcw",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "m9_ndN_-uV",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/data-sources"
+        }
+      ]
+    },
+    {
+      "projectId": "84wxoth5npGrp6RRXPL88z",
+      "projectApiToken": "hOzXksPB8gkTrKnfJeV9VDS8m8dnIXQn1xxDQZ5MHxv9orQY6JNgwmk6aDMZPLkocV2KtD9gNJXv5JwIbbzIQ",
+      "projectName": "react-scroll-parallax-global",
+      "version": "4.6.0",
+      "cssFilePath": "plasmic/react_scroll_parallax_global/plasmic_react_scroll_parallax_global.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/react_scroll_parallax_global/PlasmicGlobalContextsProvider.jsx",
+      "codeComponents": [
+        {
+          "id": "bozP4lLlAZ",
+          "name": "ParallaxWrapper",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        },
+        {
+          "id": "L6MfauX2Cw",
+          "name": "ParallaxProviderWrapper",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "aNB-damBV_-ys",
+        "name": "Screen",
+        "projectId": "w64Lj4qzFKznSdSZRXYR8",
+        "contextFilePath": "plasmic/razorpay_payment_gateway/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.187",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.187/dist/plasmic.schema.json"
+}

@@ -1,0 +1,19 @@
+{
+  "props": [
+    {
+      "name": "UnnamedStyleToken",
+      "type": "spacing",
+      "value": "1%",
+      "category": "spacing",
+      "meta": {
+        "projectId": "w64Lj4qzFKznSdSZRXYR8",
+        "id": "TQaGnrH-c"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
